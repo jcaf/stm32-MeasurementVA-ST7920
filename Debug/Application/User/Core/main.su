@@ -1,0 +1,17 @@
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:84:8:lcdan_str_get_center_hor	32	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:95:9:lcdan_str_get_align_col	16	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:107:6:lcdan_prepare_str_clearformat	40	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:129:15:_float_to_char	40	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:157:6:swap	24	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:162:7:reverse	24	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:171:7:itoa	40	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:261:8:ftoa	56	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:356:5:main	24	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:459:6:SystemClock_Config	112	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:507:13:MX_I2C1_Init	8	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:555:13:MX_SPI1_Init	8	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:596:13:MX_SPI2_Init	8	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:636:13:MX_USART1_UART_Init	8	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:671:13:MX_USB_PCD_Init	8	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:703:13:MX_GPIO_Init	56	static
+/run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c:783:6:Error_Handler	8	static,ignoring_inline_asm
