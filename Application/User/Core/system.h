@@ -19,9 +19,15 @@
 #define BitToggle(REG,BIT) XOR_BITWISE(REG, 1<<BIT)
 
 //Write physical port
-#define PinTo1(PORTX,PIN) BitTo1(PORTX, PIN)
-#define PinTo0(PORTX,PIN) BitTo0(PORTX, PIN)
-#define PinToggle(PORTX,PIN) BitToggle(PORTX,PIN)
+
+//#define PinTo1(PORTX,PIN) BitTo1(PORTX, PIN)
+//#define PinTo0(PORTX,PIN) BitTo0(PORTX, PIN)
+//#define PinToggle(PORTX,PIN) BitToggle(PORTX,PIN)
+
+#define PinTo1(GPIOx,GPIO_Pin) HAL_GPIO_WritePin(GPIOx, GPIO_Pin, GPIO_PIN_SET )
+#define PinTo0(GPIOx,GPIO_Pin) HAL_GPIO_WritePin(GPIOx, GPIO_Pin, GPIO_PIN_RESET)
+#define PinToggle(GPIOx,GPIO_Pin) HAL_GPIO_TogglePin(GPIOx, GPIO_Pin)
+
 //Lectura de Pin
 #define PinRead(PINX,PIN) ((PINX & (1<<PIN))>>PIN)
 #define ReadPin(PINX,PIN) ((PINX & (1<<PIN))>>PIN)//To deprecate

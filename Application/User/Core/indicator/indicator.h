@@ -16,13 +16,16 @@ struct _indicator
 		uint16_t KOff_MAX;
 		//
 
-		volatile unsigned char *Port8bits;
-		int8_t pin;
+		GPIO_TypeDef* GPIOx;
+		uint16_t GPIO_Pin;
+
 };
 
 volatile extern struct _indicator indicator;
 
-	void indicator_setPortPin(volatile unsigned char *Port8bits, int8_t pin);
+	//void indicator_setPortPin(volatile unsigned char *Port8bits, int8_t pin);
+	void indicator_setPortPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+
 	#ifdef TIMEON_TIMEOFF_SEPARADOS
 	void indicator_setKSysTickTimeOn_ms(uint16_t KSysTickTimeOn_ms);//div by SYSTICK_MS
 	void indicator_setKSysTickTimeOff_ms(uint16_t KSysTickTimeOff_ms);//div by SYSTICK_MS

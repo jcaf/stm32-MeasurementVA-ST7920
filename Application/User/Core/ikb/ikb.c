@@ -15,6 +15,8 @@
 
 #define IKEY_SCAN_SETUP_TIMEuS 5//us
 
+#define __delay_us(x)
+
 void ikey_scan(struct _key *key, int8_t num_keys, int8_t count_debounce)
 {
     int8_t k = num_keys-1;
