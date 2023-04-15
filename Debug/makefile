@@ -12,6 +12,8 @@ RM := rm -rf
 -include Drivers/STM32F0xx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
 -include Application/User/Startup/subdir.mk
+-include Application/User/Core/indicator/subdir.mk
+-include Application/User/Core/ikb/subdir.mk
 -include Application/User/Core/ads1115/subdir.mk
 -include Application/User/Core/ST7920/subdir.mk
 -include Application/User/Core/INA229/subdir.mk

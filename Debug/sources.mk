@@ -26,6 +26,8 @@ SUBDIRS := \
 Application/User/Core/INA229 \
 Application/User/Core/ST7920 \
 Application/User/Core/ads1115 \
+Application/User/Core/ikb \
+Application/User/Core/indicator \
 Application/User/Core \
 Application/User/Startup \
 Drivers/CMSIS \
