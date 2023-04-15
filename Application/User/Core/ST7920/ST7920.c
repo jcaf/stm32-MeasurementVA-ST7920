@@ -68,7 +68,7 @@ void delayUs(uint32_t us)
 void SendByteSPI(uint8_t byte)
 {
 	HAL_SPI_Transmit(&hspi1, &byte, 1, HAL_MAX_DELAY);
-	//while(HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+	while(HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
 
 
 }
@@ -78,7 +78,8 @@ void ST7920_SendCmd (uint8_t cmd)
 
 	CS_HIGH;  // PUll the CS high
 
-	delayUs(50);
+	//delayUs(50);
+	delay_us(1);
 
 	SendByteSPI(0xf8+(0<<1));  // send the SYNC + RS(0)
 
@@ -86,7 +87,7 @@ void ST7920_SendCmd (uint8_t cmd)
 
 	SendByteSPI((cmd<<4)&0xf0);  // send the lower nibble
 
-	delayUs(50);
+	delay_us(1);
 
 	CS_LOW;  // PUll the CS LOW
 

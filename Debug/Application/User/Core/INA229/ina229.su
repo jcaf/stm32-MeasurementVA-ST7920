@@ -1,3 +1,2 @@
-../Application/User/Core/INA229/ina229.c:15:6:delay_us	24	static,ignoring_inline_asm
-../Application/User/Core/INA229/ina229.c:163:6:ina229_init	16	static
-../Application/User/Core/INA229/ina229.c:247:9:INA229_read_current_register	32	static
+../Application/User/Core/INA229/ina229.c:73:6:ina229_init	24	static
+../Application/User/Core/INA229/ina229.c:157:9:INA229_read_current_register	24	static

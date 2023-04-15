@@ -8,6 +8,7 @@
 #include "../system.h"
 #include "../types.h"
 #include "ikb.h"
+#include "delay/delaynop.h"
 
 //set by software
 #define KB_KEY_STATE_PRESSED 1
@@ -15,7 +16,7 @@
 
 #define IKEY_SCAN_SETUP_TIMEuS 5//us
 
-#define __delay_us(x)
+#define __delay_us(x) delay_us(x)
 
 void ikey_scan(struct _key *key, int8_t num_keys, int8_t count_debounce)
 {

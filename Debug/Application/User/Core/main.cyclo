@@ -1,11 +1,5 @@
 main.c:142:8:ftoa	16
-main.c:237:5:main	1
-main.c:359:6:SystemClock_Config	4
-main.c:407:13:MX_I2C1_Init	4
-main.c:455:13:MX_SPI1_Init	2
-main.c:496:13:MX_SPI2_Init	2
-main.c:536:13:MX_USART1_UART_Init	2
-main.c:571:13:MX_USB_PCD_Init	2
-main.c:603:13:MX_GPIO_Init	1
-main.c:676:8:smoothAlg_nonblock	9
-main.c:744:6:Error_Handler	1
+main.c:367:6:SystemClock_Config	4
+main.c:237:5:main	12
+main.c:684:8:smoothAlg_nonblock	9
+main.c:752:6:Error_Handler	1

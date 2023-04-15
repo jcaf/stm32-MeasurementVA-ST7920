@@ -1,6 +1,7 @@
 "./Application/User/Core/INA229/ina229.o"
 "./Application/User/Core/ST7920/ST7920.o"
 "./Application/User/Core/ads1115/ads1115.o"
+"./Application/User/Core/delay/delaynop.o"
 "./Application/User/Core/ikb/ikb.o"
 "./Application/User/Core/indicator/indicator.o"
 "./Application/User/Core/main.o"

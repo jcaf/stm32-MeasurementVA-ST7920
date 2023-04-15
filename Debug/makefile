@@ -14,6 +14,7 @@ RM := rm -rf
 -include Application/User/Startup/subdir.mk
 -include Application/User/Core/indicator/subdir.mk
 -include Application/User/Core/ikb/subdir.mk
+-include Application/User/Core/delay/subdir.mk
 -include Application/User/Core/ads1115/subdir.mk
 -include Application/User/Core/ST7920/subdir.mk
 -include Application/User/Core/INA229/subdir.mk

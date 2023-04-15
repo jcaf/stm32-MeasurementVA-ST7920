@@ -32,7 +32,8 @@ Application/User/Core/INA229/ina229.o: \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h \
- ../Application/User/Core/INA229/ina229.h
+ ../Application/User/Core/INA229/ina229.h \
+ /run/user/1000/doc/70655d00/Core/delay/delaynop.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 ../../Core/Inc/stm32f0xx_hal_conf.h:
@@ -67,3 +68,4 @@ Application/User/Core/INA229/ina229.o: \
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h:
 ../Application/User/Core/INA229/ina229.h:
+/run/user/1000/doc/70655d00/Core/delay/delaynop.h:
