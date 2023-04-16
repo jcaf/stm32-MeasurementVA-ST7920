@@ -8,6 +8,7 @@
 #include "main.h"
 //#include <stdint.h>
 #include "ST7920.h"
+#include "delay/delaynop.h"
 
 extern SPI_HandleTypeDef hspi1;
 
