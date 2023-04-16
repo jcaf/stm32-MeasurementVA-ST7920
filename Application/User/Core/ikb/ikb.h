@@ -5,6 +5,8 @@ Reglas:
 #ifndef iKB_H_
 #define iKB_H_
 
+#include "types.h"
+
 struct _key_prop
 {
 	union _key_prop_uFlag

@@ -4,6 +4,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
 
 //define now is in local:"main.h"
 #define F_CPU 16000000UL	//16000000UL		//AVR-GCC
@@ -29,8 +30,10 @@
 #define PinToggle(GPIOx,GPIO_Pin) HAL_GPIO_TogglePin(GPIOx, GPIO_Pin)
 
 //Lectura de Pin
-#define PinRead(PINX,PIN) ((PINX & (1<<PIN))>>PIN)
-#define ReadPin(PINX,PIN) ((PINX & (1<<PIN))>>PIN)//To deprecate
+//#define PinRead(PINX,PIN) ((PINX & (1<<PIN))>>PIN)
+#define PinRead(GPIOx,GPIO_Pin) HAL_GPIO_ReadPin(GPIOx,GPIO_Pin)
+
+//#define ReadPin(PINX,PIN) ((PINX & (1<<PIN))>>PIN)//To deprecate
 //
 
 #if defined(__XC) || defined(HI_TECH_C) || defined(_MPC_)

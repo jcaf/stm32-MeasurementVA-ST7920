@@ -1,0 +1,2 @@
+kb_setup.c:260:10:keyRead_pin_key0	1
+kb_setup.c:278:6:ikb_init	1

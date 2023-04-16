@@ -4,6 +4,7 @@
 "./Application/User/Core/delay/delaynop.o"
 "./Application/User/Core/ikb/ikb.o"
 "./Application/User/Core/indicator/indicator.o"
+"./Application/User/Core/kb_setup.o"
 "./Application/User/Core/main.o"
 "./Application/User/Core/stm32f0xx_hal_msp.o"
 "./Application/User/Core/stm32f0xx_it.o"

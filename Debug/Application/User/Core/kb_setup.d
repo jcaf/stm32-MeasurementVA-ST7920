@@ -1,6 +1,5 @@
-Application/User/Core/main.o: \
- /run/flatpak/doc/1386df1/STM32Firmware/Core/Src/main.c \
- ../../Core/Inc/main.h \
+Application/User/Core/kb_setup.o: ../Application/User/Core/kb_setup.c \
+ ../Application/User/Core/system.h ../../Core/Inc/main.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../../Core/Inc/stm32f0xx_hal_conf.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -33,14 +32,10 @@ Application/User/Core/main.o: \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h \
  ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h \
- /run/user/1000/doc/70655d00/Core/INA229/ina229.h \
- /run/user/1000/doc/70655d00/Core/ads1115/ads1115.h \
- /run/user/1000/doc/70655d00/Core/ST7920/ST7920.h \
- /run/user/1000/doc/70655d00/Core/indicator/indicator.h \
- /run/user/1000/doc/70655d00/Core/ikb/ikb.h \
- /run/user/1000/doc/70655d00/Core/types.h \
- /run/user/1000/doc/70655d00/Core/kb_setup.h \
- /run/user/1000/doc/70655d00/Core/ikb/ikb.h
+ ../Application/User/Core/types.h ../Application/User/Core/kb_setup.h \
+ ../Application/User/Core/ikb/ikb.h \
+ /run/user/1000/doc/70655d00/Core/types.h
+../Application/User/Core/system.h:
 ../../Core/Inc/main.h:
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 ../../Core/Inc/stm32f0xx_hal_conf.h:
@@ -74,11 +69,7 @@ Application/User/Core/main.o: \
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h:
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:
 ../../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h:
-/run/user/1000/doc/70655d00/Core/INA229/ina229.h:
-/run/user/1000/doc/70655d00/Core/ads1115/ads1115.h:
-/run/user/1000/doc/70655d00/Core/ST7920/ST7920.h:
-/run/user/1000/doc/70655d00/Core/indicator/indicator.h:
-/run/user/1000/doc/70655d00/Core/ikb/ikb.h:
+../Application/User/Core/types.h:
+../Application/User/Core/kb_setup.h:
+../Application/User/Core/ikb/ikb.h:
 /run/user/1000/doc/70655d00/Core/types.h:
-/run/user/1000/doc/70655d00/Core/kb_setup.h:
-/run/user/1000/doc/70655d00/Core/ikb/ikb.h:
